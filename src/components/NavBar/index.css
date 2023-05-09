@@ -1,0 +1,56 @@
+.nav-bar {
+  background-color: #ffffff33;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-right p {
+  font-weight: 500;
+  font-size: 20px;
+}
+.game-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-bar {
+    height: 80px;
+  }
+  .nav-left {
+    width: 30%;
+  }
+  .nav-right {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav-bar {
+    height: 120px;
+  }
+  .nav-right {
+    width: 500px;
+  }
+  .nav-right p {
+    font-size: 35px;
+  }
+  .game-name {
+    font-size: 40px;
+  }
+  .logo {
+    width: 80px;
+  }
+}

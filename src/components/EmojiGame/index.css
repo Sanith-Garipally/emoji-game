@@ -1,0 +1,30 @@
+.bg-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+}
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-container {
+  width: 80%;
+}
+.emoji-list-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .section-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-container {
+    max-width: 1000px;
+  }
+}

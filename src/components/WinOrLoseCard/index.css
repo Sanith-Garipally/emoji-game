@@ -1,0 +1,73 @@
+.wl-container {
+  background-color: #ffffff33;
+  border: 8px solid #ffffff30;
+  border-radius: 25px;
+  padding: 20px;
+  display: flex;
+}
+.wl-score-container {
+}
+.wl-img-container {
+  display: flex;
+}
+.game-result {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.gr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.score-para {
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.marks-para {
+  margin: 0;
+  color: #6a59ff;
+  font-weight: bold;
+  font-size: 40px;
+}
+.play-again-btn {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  border: none;
+  cursor: pointer;
+  padding: 23px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 30px;
+  margin: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .wl-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wl-img-container {
+    order: -1;
+    justify-content: center;
+  }
+  .wl-img {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .wl-container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .wl-img {
+    width: 100%;
+  }
+  .game-result {
+    font-size: 65px;
+  }
+}

@@ -1,0 +1,44 @@
+.list-item {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.emoji-button {
+  border: 5px solid #ffffff30;
+  background-color: #ffffff33;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+}
+.emoji {
+  width: 70px;
+}
+@media screen and (max-width: 575px) {
+  .emoji {
+    width: 40px;
+  }
+  .emoji-button {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .emoji {
+    width: 70px;
+  }
+  .emoji-button {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .emoji {
+    width: 100px;
+  }
+  .emoji-button {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+  }
+}
